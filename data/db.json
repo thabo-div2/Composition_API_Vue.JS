@@ -1,40 +1,34 @@
 {
-  "posts": [
-    {
-      "title": "Welcome to the Blog",
-      "body": "Cheese is a lovely substance. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, error doloribus! Suscipit repudiandae fugiat atque pariatur quia delectus quidem at, blanditiis nisi eaque! Sunt sint reprehenderit quod quas, ab doloremque similique modi, eius temporibus nemo voluptatum, laboriosam esse eum! Eaque reprehenderit in totam voluptate quibusdam repudiandae nam, quas cupiditate quaerat commodi tenetur deleniti. Necessitatibus voluptatem temporibus quam. Error omnis minus perferendis possimus earum! Nobis cumque iure, mollitia nulla voluptates odio, animi vero perspiciatis hic repellendus magni unde eligendi nostrum necessitatibus voluptate reiciendis neque facere illo ipsam consectetur quidem. Rerum quaerat sunt, autem doloremque modi nulla exercitationem ipsam cumque culpa, quasi necessitatibus magnam nostrum eius delectus vero error dolorum ab perspiciatis dolor illo, incidunt distinctio fuga dolorem. Laudantium dolore iure amet voluptate voluptates optio, ab obcaecati delectus perspiciatis! Blanditiis earum autem enim, sed modi ea nostrum. Veniam debitis, commodi magni cumque tempora perspiciatis quae dolorem perferendis asperiores omnis est ratione dignissimos.",
-      "id": 1,
-      "tags": [
-        "webdev",
-        "coding",
-        "news"
-      ]
-    },
-    {
-      "title": "Top 5 CSS Tips",
-      "body": "You must know the things. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, error doloribus! Suscipit repudiandae fugiat atque pariatur quia delectus quidem at, blanditiis nisi eaque! Sunt sint reprehenderit quod quas, ab doloremque similique modi, eius temporibus nemo voluptatum, laboriosam esse eum! Eaque reprehenderit in totam voluptate quibusdam repudiandae nam, quas cupiditate quaerat commodi tenetur deleniti. Necessitatibus voluptatem temporibus quam. Error omnis minus perferendis possimus earum! Nobis cumque iure, mollitia nulla voluptates odio, animi vero perspiciatis hic repellendus magni unde eligendi nostrum necessitatibus voluptate reiciendis neque facere illo ipsam consectetur quidem. Rerum quaerat sunt, autem doloremque modi nulla exercitationem ipsam cumque culpa, quasi necessitatibus magnam nostrum eius delectus vero error dolorum ab perspiciatis dolor illo, incidunt distinctio fuga dolorem. Laudantium dolore iure amet voluptate voluptates optio, ab obcaecati delectus perspiciatis! Blanditiis earum autem enim, sed modi ea nostrum. Veniam debitis, commodi magni cumque tempora perspiciatis quae dolorem perferendis asperiores omnis est ratione dignissimos.",
-      "id": 2,
-      "tags": [
-        "css",
-        "webdev",
-        "coding"
-      ]
-    },
-    {
-      "title": "Apple",
-      "body": "Apollo",
-      "tags": [
-        "HTML"
-      ],
-      "id": 3
-    },
-    {
-      "title": "Apple",
-      "body": "Apollo",
-      "tags": [
-        "HTML"
-      ],
-      "id": 4
-    }
-  ]
+	"posts": [
+		{
+			"title": "Welcome to the Blog",
+			"body": "Cheese is a lovely substance. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, error doloribus! Suscipit repudiandae fugiat atque pariatur quia delectus quidem at, blanditiis nisi eaque! Sunt sint reprehenderit quod quas, ab doloremque similique modi, eius temporibus nemo voluptatum, laboriosam esse eum! Eaque reprehenderit in totam voluptate quibusdam repudiandae nam, quas cupiditate quaerat commodi tenetur deleniti. Necessitatibus voluptatem temporibus quam. Error omnis minus perferendis possimus earum! Nobis cumque iure, mollitia nulla voluptates odio, animi vero perspiciatis hic repellendus magni unde eligendi nostrum necessitatibus voluptate reiciendis neque facere illo ipsam consectetur quidem. Rerum quaerat sunt, autem doloremque modi nulla exercitationem ipsam cumque culpa, quasi necessitatibus magnam nostrum eius delectus vero error dolorum ab perspiciatis dolor illo, incidunt distinctio fuga dolorem. Laudantium dolore iure amet voluptate voluptates optio, ab obcaecati delectus perspiciatis! Blanditiis earum autem enim, sed modi ea nostrum. Veniam debitis, commodi magni cumque tempora perspiciatis quae dolorem perferendis asperiores omnis est ratione dignissimos.",
+			"id": 1,
+			"tags": ["webdev", "coding", "news"]
+		},
+		{
+			"title": "Top 5 CSS Tips",
+			"body": "You must know the things. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, error doloribus! Suscipit repudiandae fugiat atque pariatur quia delectus quidem at, blanditiis nisi eaque! Sunt sint reprehenderit quod quas, ab doloremque similique modi, eius temporibus nemo voluptatum, laboriosam esse eum! Eaque reprehenderit in totam voluptate quibusdam repudiandae nam, quas cupiditate quaerat commodi tenetur deleniti. Necessitatibus voluptatem temporibus quam. Error omnis minus perferendis possimus earum! Nobis cumque iure, mollitia nulla voluptates odio, animi vero perspiciatis hic repellendus magni unde eligendi nostrum necessitatibus voluptate reiciendis neque facere illo ipsam consectetur quidem. Rerum quaerat sunt, autem doloremque modi nulla exercitationem ipsam cumque culpa, quasi necessitatibus magnam nostrum eius delectus vero error dolorum ab perspiciatis dolor illo, incidunt distinctio fuga dolorem. Laudantium dolore iure amet voluptate voluptates optio, ab obcaecati delectus perspiciatis! Blanditiis earum autem enim, sed modi ea nostrum. Veniam debitis, commodi magni cumque tempora perspiciatis quae dolorem perferendis asperiores omnis est ratione dignissimos.",
+			"id": 2,
+			"tags": ["css", "webdev", "coding"]
+		},
+		{
+			"title": "Apple",
+			"body": "Apollo",
+			"tags": ["html"],
+			"id": 3
+		},
+		{
+			"title": "Apple",
+			"body": "Apollo",
+			"tags": ["html"],
+			"id": 4
+		},
+		{
+			"title": "Juice",
+			"body": "Juice is a nice liquid substance",
+			"tags": ["html", "javascript", "news"],
+			"id": 5
+		}
+	]
 }

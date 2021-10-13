@@ -27,6 +27,7 @@
 
 <script>
 import { ref } from "@vue/reactivity";
+import { useRouter, useRoute } from "vue-router";
 
 export default {
 	setup() {
@@ -34,6 +35,8 @@ export default {
 		const body = ref("");
 		const tag = ref("");
 		const tags = ref([]);
+
+		const router = useRouter();
 
 		const handleKeyDown = () => {
 			if (!tags.value.includes(tag.value)) {
@@ -57,6 +60,8 @@ export default {
 			if (!data.ok) {
 				throw Error("that post does not exist");
 			}
+
+			router.push({ name: "Home" });
 		};
 
 		return { title, body, tag, handleKeyDown, tags, addPost };
