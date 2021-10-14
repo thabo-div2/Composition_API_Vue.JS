@@ -28,6 +28,7 @@
 <script>
 import { ref } from "@vue/reactivity";
 import { useRouter, useRoute } from "vue-router";
+import { projectFirestore, timestamp } from "../firebase/config";
 
 export default {
 	setup() {
@@ -51,15 +52,10 @@ export default {
 				title: title.value,
 				body: body.value,
 				tags: tags.value,
+				createdAt: timestamp(),
 			};
-			const data = await fetch("http://localhost:3000/posts", {
-				method: "POST",
-				headers: { "Content-Type": "application/json" },
-				body: JSON.stringify(post),
-			});
-			if (!data.ok) {
-				throw Error("that post does not exist");
-			}
+
+			const res = await projectFirestore.collection("posts").add(post);
 
 			router.push({ name: "Home" });
 		};
